@@ -1,0 +1,547 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.buttons button {
+  margin-top: 2rem;
+  border: none;
+  padding: 1.5rem;
+  border-radius: 2.5rem;
+  background: #26baa4;
+  color: white;
+  width: 80%;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background: #69d8c8;
+}
+
+.buttons .mac-button {
+  background: #6173ff;
+}
+
+.buttons .mac-button:hover {
+  background: #8b93e9;
+}
+
+p {
+  padding: 1rem 2rem 0 2rem;
+  line-height: 2rem;
+  color: #9fabb2;
+}
+
+header {
+  text-align: center;
+}
+
+header .container {
+  background-image: url(/images/bg-header-mobile.png);
+  background-repeat: none;
+  background-size: cover;
+  background-position: top;
+  padding: 8rem 1.5rem;
+}
+
+header .container .hero-text {
+  font-size: 1.6rem;
+  padding: 5rem 0 3rem 0;
+}
+
+header .container .hero-text h1 {
+  padding: 0 1.7rem;
+  color: #4c545d;
+}
+
+header .container .hero-text p {
+  padding: 1rem 2rem 0 2rem;
+  font-size: 1.7rem;
+  line-height: 2.3rem;
+  color: #9fabb2;
+}
+
+.features-1 {
+  text-align: center;
+}
+
+.features-1 .container {
+  padding: 0 1.5rem 5rem 1.5rem;
+}
+
+.features-1 .container img {
+  width: 30rem;
+}
+
+.features-1 .container div {
+  font-size: 1.5rem;
+  padding: 2rem 1rem;
+}
+
+.features-1 .container div h1 {
+  padding: 0 2.5rem;
+  color: #4c545d;
+}
+
+.features-1 .container div h2 {
+  font-size: 2rem;
+  color: #4c545d;
+}
+
+.features-2 {
+  text-align: center;
+}
+
+.features-2 .container {
+  padding: 0 1.5rem 5rem 1.5rem;
+}
+
+.features-2 .container div {
+  font-size: 1.5rem;
+  padding: 2rem 1rem;
+}
+
+.features-2 .container div h1 {
+  padding: 0 2.5rem;
+  color: #4c545d;
+}
+
+.features-2 .container img {
+  width: 30rem;
+}
+
+.features-3 {
+  text-align: center;
+}
+
+.features-3 .container {
+  padding: 0 1.5rem 5rem 1.5rem;
+}
+
+.features-3 .container div {
+  font-size: 1.5rem;
+  padding: 2rem 1rem;
+}
+
+.features-3 .container div img {
+  padding: 1rem 0 3rem 0;
+}
+
+.features-3 .container div h1 {
+  padding: 0 2.5rem;
+  color: #4c545d;
+}
+
+.features-3 .container div h2 {
+  font-size: 2rem;
+  color: #4c545d;
+}
+
+.logos {
+  text-align: center;
+}
+
+.logos .container {
+  padding: 0 1.5rem 5rem 1.5rem;
+}
+
+.logos .container div {
+  padding: 2rem 1rem;
+}
+
+.logos .container div img {
+  width: 10rem;
+}
+
+.download-section {
+  text-align: center;
+}
+
+.download-section .container {
+  padding: 5rem 0rem;
+  font-size: 1.6rem;
+}
+
+.download-section .container h1 {
+  color: #4c545d;
+  padding: 0 4rem;
+}
+
+footer {
+  text-align: center;
+}
+
+footer .container {
+  padding: 3.5rem 0;
+  background: #eff2f6;
+}
+
+footer .container .logo {
+  width: 5rem;
+}
+
+footer .container .nav-1, footer .container .nav-2, footer .container .nav-3 {
+  margin: .5rem 0;
+  font-size: 1.6rem;
+}
+
+footer .container .nav-1 ul li, footer .container .nav-2 ul li, footer .container .nav-3 ul li {
+  padding-top: 1rem;
+  list-style: none;
+}
+
+footer .container .nav-1 ul li a, footer .container .nav-2 ul li a, footer .container .nav-3 ul li a {
+  text-decoration: none;
+  color: #4c545d;
+}
+
+footer .container .nav-1 ul li a:hover, footer .container .nav-2 ul li a:hover, footer .container .nav-3 ul li a:hover {
+  color: #69d8c8;
+}
+
+footer .container .social-icons {
+  padding-top: 2rem;
+}
+
+footer .container .social-icons img {
+  padding: 0 1.5rem;
+}
+
+footer .container .social-icons img:hover {
+  width: 6rem;
+}
+
+@media only screen and (min-width: 768px) {
+  header .container {
+    background: url(../images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 8rem 15rem 15rem 15rem 8rem;
+        grid-template-columns: 8rem 15rem 15rem 15rem 8rem;
+    -ms-grid-rows: 10rem auto auto;
+        grid-template-rows: 10rem auto auto;
+    padding: 10rem 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .container .logo {
+    grid-column: 1/-1;
+  }
+  header .container .logo img {
+    width: 7rem;
+  }
+  header .container .hero-text {
+    grid-column: 1/-1;
+    padding-top: 3rem;
+  }
+  header .container .buttons {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 3;
+    grid-column: 2/5;
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+    grid-gap: 2rem;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  header .container .buttons button {
+    margin-top: 2rem;
+    width: 100%;
+  }
+  header .container .buttons button .mac-button {
+    margin-left: 1rem;
+  }
+  .features-1 .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    -ms-grid-rows: ()[2];
+        grid-template-rows: repeat(2);
+    padding: 0 5rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .features-1 .container .snippets {
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3/4;
+  }
+  .features-1 .container .computer {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/3;
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+  .features-1 .container .computer img {
+    width: 70%;
+  }
+  .features-2 .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 10rem 15rem 15rem 15rem 10rem;
+        grid-template-columns: 10rem 15rem 15rem 15rem 10rem;
+    -ms-grid-rows: (auto)[2];
+        grid-template-rows: repeat(2, auto);
+    padding: 5rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .features-2 .container .access {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 3;
+    grid-column: 2/5;
+  }
+  .features-2 .container .image {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    grid-column: 1/-1;
+  }
+  .features-2 .container .image img {
+    width: 80%;
+  }
+  .features-3 .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(auto, 15rem))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(auto, 15rem));
+    -ms-grid-rows: (auto)[2];
+        grid-template-rows: repeat(2, auto);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 5rem;
+  }
+  .features-3 .container div {
+    padding: 1rem 0;
+  }
+  .features-3 .container div p {
+    padding: 1rem .5rem;
+  }
+  .features-3 .container .workflow {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 4;
+    grid-column: 2/6;
+  }
+  .features-3 .container .blacklist {
+    -ms-grid-row: 2;
+    grid-row: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/3;
+  }
+  .features-3 .container .text-snippet {
+    -ms-grid-row: 2;
+    grid-row: 2;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 2;
+    grid-column: 3/5;
+  }
+  .features-3 .container .preview {
+    -ms-grid-row: 2;
+    grid-row: 2;
+    -ms-grid-column: 5;
+    -ms-grid-column-span: 2;
+    grid-column: 5/7;
+  }
+  .logos .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(12rem, 18rem))[5];
+        grid-template-columns: repeat(5, minmax(12rem, 18rem));
+    gap: 1rem;
+    padding: 3rem 5rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .logos .container div {
+    padding: 0;
+  }
+  .download-section .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 10rem 15rem 15rem 15rem 10rem;
+        grid-template-columns: 10rem 15rem 15rem 15rem 10rem;
+    -ms-grid-rows: auto auto;
+        grid-template-rows: auto auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .download-section .container .text {
+    grid-column: 1/-1;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+  }
+  .download-section .container .buttons {
+    -ms-grid-row: 2;
+    grid-row: 2;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 3;
+    grid-column: 2/5;
+    gap: 1rem;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media only screen and (min-width: 1080px) {
+  .features-1 .container {
+    -ms-grid-columns: (minmax(auto, 20rem))[5];
+        grid-template-columns: repeat(5, minmax(auto, 20rem));
+    -ms-grid-rows: (auto)[4];
+        grid-template-rows: repeat(4, auto);
+    gap: 1rem;
+  }
+  .features-1 .container .snippets {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 3;
+    grid-column: 2/5;
+  }
+  .features-1 .container .computer {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 4;
+    grid-row: 2/6;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-column: 1/4;
+  }
+  .features-1 .container .computer img {
+    width: 90%;
+  }
+  .features-1 .container .search {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 2;
+    grid-column: 4/6;
+    text-align: start;
+  }
+  .features-1 .container .search p {
+    padding-left: 0;
+  }
+  .features-1 .container .icloud {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 2;
+    grid-column: 4/6;
+    text-align: start;
+  }
+  .features-1 .container .icloud p {
+    padding-left: 0;
+  }
+  .features-1 .container .history {
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 1;
+    grid-row: 4/5;
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 2;
+    grid-column: 4/6;
+    text-align: start;
+  }
+  .features-1 .container .history p {
+    padding-left: 0;
+  }
+  footer .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(12rem, 18rem))[6];
+        grid-template-columns: repeat(6, minmax(12rem, 18rem));
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+    gap: 1rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 1rem 2rem;
+  }
+  footer .container .logo {
+    padding: 1.5rem 0 0 1rem;
+    width: 8rem;
+  }
+  footer .container .social-icons {
+    -ms-grid-column: 6;
+    -ms-grid-column-span: 1;
+    grid-column: 6/7;
+  }
+  footer .container .social-icons img {
+    padding-right: 0;
+  }
+  footer .container .social-icons img:hover {
+    width: 4.5rem;
+  }
+  footer .container .nav-1, footer .container .nav-2, footer .container .nav-3 {
+    text-align: start;
+  }
+  footer .container .nav-1 ul li, footer .container .nav-2 ul li, footer .container .nav-3 ul li {
+    padding-top: 0;
+    line-height: 4rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */
